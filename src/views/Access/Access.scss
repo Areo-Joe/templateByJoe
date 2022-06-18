@@ -1,0 +1,21 @@
+.access-container {
+    background-color: #c6f6ff;
+    opacity: 1;
+    background-image: radial-gradient(#3a43f8 0.9500000000000001px, #c6f6ff 0.9500000000000001px);
+    background-size: 19px 19px;
+    .split-container {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        .logo-container {
+            width: 200px;
+            background-color: white;
+            img {
+                margin: 0 auto;
+                position: absolute;
+                top: 50%;
+                margin-top: -96px;
+            }
+        }
+    }
+}

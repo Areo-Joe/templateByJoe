@@ -1,0 +1,18 @@
+.all-container {
+    display: flex;
+    flex-direction: column;
+    .header-container {
+        height: 50px;
+    }
+    .bulk-container {
+        min-height: calc(100vh - 50px);
+        flex-grow: 1;
+        display: flex;
+        .aside-container {
+            width: 200px;
+        }
+        .content-container {
+            flex-grow: 1;
+        }
+    }
+}
